@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		1D0D207C78CDF9CEE3E70650 /* Pods_AM_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AD6122231F72245C0C32A2 /* Pods_AM_App.framework */; };
 		B150F1DB1E6D12F100DFB530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150F1DA1E6D12F100DFB530 /* AppDelegate.swift */; };
-		B150F1DD1E6D12F100DFB530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150F1DC1E6D12F100DFB530 /* ViewController.swift */; };
+		B150F1DD1E6D12F100DFB530 /* ThakorjiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150F1DC1E6D12F100DFB530 /* ThakorjiList.swift */; };
 		B150F1E01E6D12F100DFB530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B150F1DE1E6D12F100DFB530 /* Main.storyboard */; };
 		B150F1E21E6D12F100DFB530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B150F1E11E6D12F100DFB530 /* Assets.xcassets */; };
 		B150F1E51E6D12F100DFB530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B150F1E31E6D12F100DFB530 /* LaunchScreen.storyboard */; };
 		B150F1ED1E6D4D4400DFB530 /* ThakorjiDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150F1EC1E6D4D4300DFB530 /* ThakorjiDetail.swift */; };
+		B150F1F41E6EACCD00DFB530 /* AudioList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150F1F31E6EACCD00DFB530 /* AudioList.swift */; };
+		B1540C331E73A92500BA7F5C /* BhajanList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1540C321E73A92500BA7F5C /* BhajanList.swift */; };
+		B1540C351E73A94E00BA7F5C /* AudioPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1540C341E73A94E00BA7F5C /* AudioPlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +25,16 @@
 		97AD6122231F72245C0C32A2 /* Pods_AM_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AM_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B150F1D71E6D12F100DFB530 /* AM_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AM_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B150F1DA1E6D12F100DFB530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B150F1DC1E6D12F100DFB530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B150F1DC1E6D12F100DFB530 /* ThakorjiList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThakorjiList.swift; sourceTree = "<group>"; };
 		B150F1DF1E6D12F100DFB530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B150F1E11E6D12F100DFB530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B150F1E41E6D12F100DFB530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B150F1E61E6D12F100DFB530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B150F1EC1E6D4D4300DFB530 /* ThakorjiDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThakorjiDetail.swift; sourceTree = "<group>"; };
+		B150F1F01E6E70CC00DFB530 /* AM_App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AM_App-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		B150F1F31E6EACCD00DFB530 /* AudioList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioList.swift; sourceTree = "<group>"; };
+		B1540C321E73A92500BA7F5C /* BhajanList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BhajanList.swift; sourceTree = "<group>"; };
+		B1540C341E73A94E00BA7F5C /* AudioPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +88,16 @@
 			isa = PBXGroup;
 			children = (
 				B150F1DA1E6D12F100DFB530 /* AppDelegate.swift */,
-				B150F1DC1E6D12F100DFB530 /* ViewController.swift */,
+				B150F1DC1E6D12F100DFB530 /* ThakorjiList.swift */,
 				B150F1EC1E6D4D4300DFB530 /* ThakorjiDetail.swift */,
 				B150F1DE1E6D12F100DFB530 /* Main.storyboard */,
+				B150F1F31E6EACCD00DFB530 /* AudioList.swift */,
+				B1540C321E73A92500BA7F5C /* BhajanList.swift */,
+				B1540C341E73A94E00BA7F5C /* AudioPlay.swift */,
 				B150F1E11E6D12F100DFB530 /* Assets.xcassets */,
 				B150F1E31E6D12F100DFB530 /* LaunchScreen.storyboard */,
 				B150F1E61E6D12F100DFB530 /* Info.plist */,
+				B150F1F01E6E70CC00DFB530 /* AM_App-Bridging-Header.h */,
 			);
 			path = AM_App;
 			sourceTree = "<group>";
@@ -126,6 +137,7 @@
 				TargetAttributes = {
 					B150F1D61E6D12F100DFB530 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -214,8 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B150F1DD1E6D12F100DFB530 /* ViewController.swift in Sources */,
+				B150F1F41E6EACCD00DFB530 /* AudioList.swift in Sources */,
+				B150F1DD1E6D12F100DFB530 /* ThakorjiList.swift in Sources */,
+				B1540C331E73A92500BA7F5C /* BhajanList.swift in Sources */,
 				B150F1ED1E6D4D4400DFB530 /* ThakorjiDetail.swift in Sources */,
+				B1540C351E73A94E00BA7F5C /* AudioPlay.swift in Sources */,
 				B150F1DB1E6D12F100DFB530 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,10 +353,13 @@
 			baseConfigurationReference = 007FBFF0D07CF302EFF1D394 /* Pods-AM_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AM_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vrana.AM-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AM_App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -351,10 +369,12 @@
 			baseConfigurationReference = 0324F955CD9DDF290DE6E3C0 /* Pods-AM_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AM_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vrana.AM-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AM_App-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
