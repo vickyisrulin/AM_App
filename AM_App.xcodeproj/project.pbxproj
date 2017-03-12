@@ -17,6 +17,9 @@
 		B150F1F41E6EACCD00DFB530 /* AudioList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150F1F31E6EACCD00DFB530 /* AudioList.swift */; };
 		B1540C331E73A92500BA7F5C /* BhajanList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1540C321E73A92500BA7F5C /* BhajanList.swift */; };
 		B1540C351E73A94E00BA7F5C /* AudioPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1540C341E73A94E00BA7F5C /* AudioPlay.swift */; };
+		B1540C371E75259D00BA7F5C /* aaradhana_gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1540C361E75259D00BA7F5C /* aaradhana_gujarati.pdf */; };
+		B1540C391E7525CC00BA7F5C /* AradhanaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1540C381E7525CC00BA7F5C /* AradhanaView.swift */; };
+		B1540C3B1E752DD700BA7F5C /* aaradhana_english.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1540C3A1E752DD700BA7F5C /* aaradhana_english.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		B150F1F31E6EACCD00DFB530 /* AudioList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioList.swift; sourceTree = "<group>"; };
 		B1540C321E73A92500BA7F5C /* BhajanList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BhajanList.swift; sourceTree = "<group>"; };
 		B1540C341E73A94E00BA7F5C /* AudioPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlay.swift; sourceTree = "<group>"; };
+		B1540C361E75259D00BA7F5C /* aaradhana_gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aaradhana_gujarati.pdf; sourceTree = "<group>"; };
+		B1540C381E7525CC00BA7F5C /* AradhanaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AradhanaView.swift; sourceTree = "<group>"; };
+		B1540C3A1E752DD700BA7F5C /* aaradhana_english.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aaradhana_english.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,12 +98,15 @@
 				B150F1EC1E6D4D4300DFB530 /* ThakorjiDetail.swift */,
 				B150F1DE1E6D12F100DFB530 /* Main.storyboard */,
 				B150F1F31E6EACCD00DFB530 /* AudioList.swift */,
+				B1540C3A1E752DD700BA7F5C /* aaradhana_english.pdf */,
+				B1540C361E75259D00BA7F5C /* aaradhana_gujarati.pdf */,
 				B1540C321E73A92500BA7F5C /* BhajanList.swift */,
 				B1540C341E73A94E00BA7F5C /* AudioPlay.swift */,
 				B150F1E11E6D12F100DFB530 /* Assets.xcassets */,
 				B150F1E31E6D12F100DFB530 /* LaunchScreen.storyboard */,
 				B150F1E61E6D12F100DFB530 /* Info.plist */,
 				B150F1F01E6E70CC00DFB530 /* AM_App-Bridging-Header.h */,
+				B1540C381E7525CC00BA7F5C /* AradhanaView.swift */,
 			);
 			path = AM_App;
 			sourceTree = "<group>";
@@ -167,7 +176,9 @@
 			files = (
 				B150F1E51E6D12F100DFB530 /* LaunchScreen.storyboard in Resources */,
 				B150F1E21E6D12F100DFB530 /* Assets.xcassets in Resources */,
+				B1540C3B1E752DD700BA7F5C /* aaradhana_english.pdf in Resources */,
 				B150F1E01E6D12F100DFB530 /* Main.storyboard in Resources */,
+				B1540C371E75259D00BA7F5C /* aaradhana_gujarati.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +240,7 @@
 				B150F1F41E6EACCD00DFB530 /* AudioList.swift in Sources */,
 				B150F1DD1E6D12F100DFB530 /* ThakorjiList.swift in Sources */,
 				B1540C331E73A92500BA7F5C /* BhajanList.swift in Sources */,
+				B1540C391E7525CC00BA7F5C /* AradhanaView.swift in Sources */,
 				B150F1ED1E6D4D4400DFB530 /* ThakorjiDetail.swift in Sources */,
 				B1540C351E73A94E00BA7F5C /* AudioPlay.swift in Sources */,
 				B150F1DB1E6D12F100DFB530 /* AppDelegate.swift in Sources */,
